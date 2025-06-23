@@ -40,4 +40,22 @@
 ![Contributors](https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.contributors.categories.svg)
 
 ### 💬 Discussions
-![Discussions](https://raw.githubusercontent.com/lailtonjunior/lail)
+![Discussions](https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.discussions.svg)
+
+### ⏱️ Habits
+![Habits](https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.habits.svg)
+
+### 📝 Languages
+![Languages](https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.languages.svg)
+
+### 🚀 Notable Projects
+![Projects](https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.projects.svg)
+
+### 📈 Traffic
+![Traffic](https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.traffic.svg)
+
+---
+
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN21wY3I1NzdvbWdmZHZmMTZtM2MyemR6ZzM5NThrbjdzbWk2aHRjMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VbnUQpnihPSIgIXuZv/giphy.gif" alt="Programando" width="400"/>
+</p>
