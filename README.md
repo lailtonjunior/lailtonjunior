@@ -1,112 +1,97 @@
-<div align="center" style="background-color: #0d1117; color: #c9d1d9; font-family: 'Courier New', Courier, monospace;">
+<!-- README.md para o perfil GitHub de Lailton Junior (skaliking) -->
 
-<a href="https://github.com/lailtonjunior">
-  <img src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.header.svg" alt="Header" />
-</a>
-
-<br>
-
-## <picture><img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"></picture> Olá, eu sou Lailton Junior (aka `skaliking`)
-
-> 👨‍💻 Desenvolvedor autodidata, apaixonado por transformar linhas de código em soluções que tocam e transformam vidas. 🧠✨
-
-<br>
-
+<h1 align="center">👑 Skaliking — Code with Soul, Build with Purpose</h1>
 <p align="center">
-  <em>Técnico em Informática no <strong>CER IV da APAE</strong>, futuro Analista e Desenvolvedor de Sistemas e um eterno entusiasta da tecnologia. <br> Minha missão é construir softwares que resolvem problemas reais, especialmente na saúde pública (SUS), superando desafios com criatividade, determinação e um toque de estilo retrô.</em>
-</p>
-
-<br>
-
----
-
-### 🛠️ Minha Stack de Ferramentas
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,flask,html,css,javascript,postgres,sqlite,linux,bash,git,github,docker&theme=dark&perline=6" />
-  </a>
+  <i>“Desenvolvedor por paixão, guerreiro por vocação — construindo soluções reais, com um toque de arte.”</i>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL Badge">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux Badge">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge">
+  <a href="https://github.com/lailtonjunior"><img src="https://img.shields.io/badge/GitHub-lailtonjunior-181717?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a>
+  <img src="https://komarev.com/ghpvc/?username=lailtonjunior&label=Profile+views&color=blueviolet&style=flat" alt="views"/>
 </p>
 
 ---
 
-### 🏆 Conquistas no Universo GitHub
+### 🧠 Sobre mim
+
+Sou **Lailton Junior**, mas pode me chamar de **skaliking** 👑  
+Técnico em informática no setor público (APAE Colinas), acadêmico de **Análise e Desenvolvimento de Sistemas**, e criador de ferramentas que simplificam a vida real de pessoas e instituições.  
+
+💡 Amo transformar sistemas de saúde com **código limpo, visual, acessível e funcional.**  
+🎯 Crio soluções para **órteses e próteses, reabilitação auditiva e intelectual**, e automatizo processos com **Python, Google Sheets, IA e APIs**.
+
+---
+
+### 🚀 Tecnologias que domino e amo estudar
 
 <p align="center">
-  <img src="https://github.com/lailtonjunior/lailtonjunior/blob/main/achievements/stargazer.svg" alt="Stargazer Achievement" />
-  <img src="https://github.com/lailtonjunior/lailtonjunior/blob/main/achievements/polyglot.svg" alt="Polyglot Achievement" />
-  <img src="https://github.com/lailtonjunior/lailtonjunior/blob/main/achievements/maintainer.svg" alt="Maintainer Achievement" />
-  <img src="https://github.com/lailtonjunior/lailtonjunior/blob/main/achievements/developer.svg" alt="Developer Achievement" />
-  <img src="https://github.com/lailtonjunior/lailtonjunior/blob/main/achievements/infographile.svg" alt="Infographile Achievement" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </p>
 
-<details>
-  <summary><b>👾 Clique aqui para ver minhas Métricas de Contribuição 👾</b></summary>
-  <br>
-  <p align="center">
-    <a href="https://github.com/lailtonjunior">
-      <img width="500" src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.base.svg" />
-      <img width="500" src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.languages.svg" />
-    </a>
-  </p>
-  <p align="center">
-    <a href="https://github.com/lailtonjunior">
-      <img width="500" src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.calendar.svg" />
-      <img width="500" src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.habits.svg" />
-    </a>
-  </p>
-  <p align="center">
-      <img src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.activity.svg" />
-  </p>
-</details>
+---
+
+### 🏆 Achievements (via GitHub Metrics)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.achievements.compact.svg" alt="Achievements" />
+</p>
 
 ---
 
-### 🚀 Projetos em Destaque
+### 📈 GitHub Metrics em ação
 
-<div align="left">
-  <ul>
-    <li>
-      <strong>PRONASys Suite (Em desenvolvimento)</strong>
-      <ul>
-        <li>Um sistema inteligente para gestão e acompanhamento de projetos <strong>PRONAS/PCD</strong>. O objetivo é otimizar recursos e maximizar o impacto social das iniciativas de saúde.</li>
-      </ul>
-    </li>
-    <li>
-      <strong>Ferramentas de Automação de Relatórios</strong>
-      <ul>
-        <li>Scripts e aplicações que integram <strong>Google Sheets com IA</strong> para gerar relatórios dinâmicos e análises de dados, automatizando processos manuais e reduzindo a margem de erro.</li>
-      </ul>
-    </li>
-    <li>
-      <strong>Aplicações de Reabilitação</strong>
-      <ul>
-        <li>Conceitos e protótipos de softwares focados em auxiliar na <strong>reabilitação intelectual e auditiva</strong>, usando gamificação e interfaces acessíveis para engajar pacientes.</li>
-      </ul>
-    </li>
-  </ul>
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.base.svg" alt="Base Metrics" />
+  <img src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.languages.svg" alt="Languages Used" />
+  <img src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.calendar.svg" alt="Commit Calendar" />
+  <img src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.projects.svg" alt="Projects" />
+  <img src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.traffic.svg" alt="Traffic" />
+</p>
 
 ---
 
-### 👤 Sobre Mim
+### ⚙️ Projetos em destaque
 
-Conhecido pela organização, comprometimento e uma visão estratégica que busca sempre o "porquê" por trás do "o quê". Fora do código, sou um grande fã da cultura pop japonesa (animes 🍥) e tenho um apreço especial pela estética retrô/vintage dos anos 80 e 90, que inspira meu estilo e minha forma de pensar.
+- 🧠 **PRONASys Suite** — Plataforma para elaboração automatizada de projetos médico-assistenciais.
+- 🩺 **Ferramentas para o SUS** — Scripts e bancos de dados para agilizar a rotina de profissionais da saúde.
+- 🔍 **Sistemas de reabilitação** — Aplicações voltadas à gestão de reabilitação intelectual e auditiva.
 
-<br>
+---
 
-<div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWZ5ZzBqdHlpdHFsa2U1czR2d3hkaWNtdjJ0OWw1bTF5czd2ZHBocyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mG1uA7JnuAZe8/giphy.gif" alt="Lain Iwakura from Serial Experiments Lain coding" width="400"/>
-  <p><i>"Always coding beyond the limits ⌨️👾"</i></p>
-</div>
+### 📚 Plugins e Recursos usados
 
-</div>
+> Alguns dos plugins incríveis que uso via [lowlighter/metrics](https://github.com/lowlighter/metrics):
+
+- [Core](https://github.com/lowlighter/metrics/blob/master/source/plugins/core/README.md)
+- [Base](https://github.com/lowlighter/metrics/blob/master/source/plugins/base/README.md)
+- [Achievements](https://github.com/lowlighter/metrics/blob/master/source/plugins/achievements/README.md)
+- [Activity](https://github.com/lowlighter/metrics/blob/master/source/plugins/activity/README.md)
+- [Calendar](https://github.com/lowlighter/metrics/blob/master/source/plugins/calendar/README.md)
+- [Code](https://github.com/lowlighter/metrics/blob/master/source/plugins/code/README.md)
+- [Contributors](https://github.com/lowlighter/metrics/blob/master/source/plugins/contributors/README.md)
+- [Discussions](https://github.com/lowlighter/metrics/blob/master/source/plugins/discussions/README.md)
+- [Habits](https://github.com/lowlighter/metrics/blob/master/source/plugins/habits/README.md)
+- [Languages](https://github.com/lowlighter/metrics/blob/master/source/plugins/languages/README.md)
+- [Projects](https://github.com/lowlighter/metrics/blob/master/source/plugins/projects/README.md)
+- [Traffic](https://github.com/lowlighter/metrics/blob/master/source/plugins/traffic/README.md)
+
+---
+
+### 👾 Vibe do perfil
+
+<p align="center">
+  <img src="https://media.giphy.com/media/n7UevNKEuepLW/giphy.gif" width="400" alt="Programando com estilo anime" />
+</p>
+
+<p align="center"><i>“Always coding beyond the limits ⌨️👾”</i></p>
+
+---
+
+💬 **Sinta-se à vontade para abrir uma issue, contribuir ou me seguir!**  
+Feito com 💙 por skaliking — *“Código com propósito transforma o mundo.”*
+
