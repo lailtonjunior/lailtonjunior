@@ -1,1 +1,1 @@
-![Metrics](https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/profile.svg)
+[![🦉 GitHub Metrics](https://github.com/lailtonjunior/lailtonjunior/actions/workflows/metrics.yml/badge.svg)](https://github.com/lailtonjunior/lailtonjunior/actions/workflows/metrics.yml)
