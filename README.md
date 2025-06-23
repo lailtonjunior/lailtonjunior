@@ -1,34 +1,48 @@
-<h1 align="center">SkaliKing</h1>
+<h1 align="center">📊 Lailton Junior - Técnico em TI | Dev em Formação | Inovador na Saúde Pública</h1>
 
-### 🚀 Estatísticas e Linguagens
-  <!-- Imagem gerada pelo job 'metrics_base' -->
-  <a href="https://github.com/lailtonjunior">
-    <img alt="Métricas Base" src="metrics.base.svg" />
-  </a>
-  
-  ### 💡 Contribuições Notáveis
-  <!-- Imagem gerada pelo job 'metrics_notable' -->
-  <a href="https://github.com/lailtonjunior">
-    <img alt="Contribuições Notáveis" src="metrics.notable.svg" />
-  </a>
-  
-</td>
-<!-- Coluna da Direita (35% da largura) -->
-<td width="35%">
-  
-  ### 🏆 Conquistas
-  <!-- Imagem gerada pelo job 'metrics_achievements' -->
-  <a href="https://github.com/lailtonjunior">
-    <img alt="Conquistas" src="metrics.achievements.svg" />
-  </a>
-  
-  ### 📅 Calendário
-  <!-- Imagem gerada pelo job 'metrics_calendar' -->
-  <a href="https://github.com/lailtonjunior">
-    <img alt="Calendário de Contribuições" src="metrics.calendar.svg" />
-  </a>
-  
-</td>
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2x4NG5xMHJ4azNhMWZ6dG42cTU5ajUzMmFmdm1hd2psOGl4b3NrdCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3ohhwF34cGDoFFhRfy/giphy.gif" width="300" alt="[Anime programando]"/>
+</p>
 
-🛠️ Tech Stack Principal
+---
+
+## ⚙️ GitHub Metrics (Visão Geral)
+
+| Métrica                         | Valor                                       |
+|---------------------------------|---------------------------------------------|
+| 📅 Membro desde                 | 2020                                        |
+| 🏗️ Repositórios públicos        | 10+                                         |
+| 👥 Seguidores                   | Em crescimento 👌                          |
+| 🧑‍💻 Linguagens principais         | Python 🐍 | HTML5 📝 | CSS 🎨 | SQL 🗃️      |
+| 🚀 Tecnologias extras           | Flask | Git | Bash | Linux | PostgreSQL      |
+| 📈 Commits (média)              | Manhã / Tarde / Noite (varia por projeto)   |
+
+---
+
+## 📈 Atividade por Horário (Média de Commits)
+
+```text
+🕙 Manhã:     ██████░░░░░░ 60%
+🌆 Tarde:     ██████████░░ 80%
+🌙 Noite:     ████████████ 100%
+🌃 Madrugada: ██░░░░░░░░░░ 20%
+
+🖥️ Linguagens Mais Usadas
+Python:       ██████████████ 50%
+HTML/CSS:     ██████░░░░░░░░ 25%
+SQL:          ████░░░░░░░░░░ 15%
+Shell Script: ██░░░░░░░░░░░░  5%
+Outros:       █░░░░░░░░░░░░░  5%
+
+🛠️ Tecnologias e Skills em Destaque
+📌 Principais Projetos
+🔗 PRONASys Suite – Plataforma para elaboração de projetos médico-assistenciais.
+
+🔗 Escala Ambulatório CER IV – Gestão de agendamentos multiprofissionais.
+
+🔗 Ferramentas SUS – Scripts e utilitários para saúde pública.
+
+🎶 Minhas trilhas de código:
+🎧 Keigo Hoashi – Bipolar Nightmare > 🎸 Rammstein – Mutter
+
 📫 Contato
