@@ -1,18 +1,18 @@
 # 👋 Olá, eu sou o Lailton Junior!
 
-## 📈 Métricas de Atividade GitHub
+## 🚀 GitHub Metrics - Meu desempenho e contribuições
 
-### 📊 Classic Metrics Overview
-![Classic Metrics](https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.classic.svg)
+### 📊 Overview
+![Metrics Base](https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.base.svg)
 
 ### 🏆 Conquistas (Achievements Compact)
 ![Achievements](https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.achievements.compact.svg)
 
-### 📅 Calendário de Commits por Ano (Isocalendar Full Year)
-![Isocalendar](https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.isocalendar.fullyear.svg)
+### 🔥 Atividades Recentes
+![Recent Activity](https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.activity.svg)
 
-### 🚀 Tópicos e Tecnologias Favoritas (Topics with Icons)
-![Topics](https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.topics.icons.svg)
+### 📅 Meu calendário de contribuições (Ano atual)
+![Isocalendar](https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.calendar.svg)
 
-### ⭐ Linguagens Mais Destacadas em Projetos (Starlists Languages)
-![Starred Languages](https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.starlists.languages.svg)
+### 👥 Categorias de Contribuidores (no projeto Metrics)
+![Contributors Categories](https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.contributors.categories.svg)
