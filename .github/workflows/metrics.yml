@@ -1,67 +1,67 @@
 name: 🦉 GitHub Metrics Full Setup
 
 on:
-  schedule: [{cron: "0 0 * * *"}]
+  schedule: [{ cron: "0 0 * * *" }]  # Roda diariamente
   workflow_dispatch:
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Default metrics
+      - name: Default Metrics (Base)
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.base.svg
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: commit
-          output_branch: github-metrics
+          committer_branch: github-metrics
           base: header, activity, community, repositories, metadata
 
-      - name: Compact display (Achievements)
+      - name: Achievements Compact
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.achievements.compact.svg
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: commit
-          output_branch: github-metrics
+          committer_branch: github-metrics
           base: ""
           plugin_achievements: yes
+          plugin_achievements_display: compact
           plugin_achievements_only: >-
             polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
             scripter, packager, explorer, infographile, manager
-          plugin_achievements_display: compact
           plugin_achievements_threshold: X
 
-      - name: Recent activity
+      - name: Recent Activity
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.activity.svg
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: commit
-          output_branch: github-metrics
+          committer_branch: github-metrics
           base: ""
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 0
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
 
-      - name: Current year calendar
+      - name: Yearly Calendar
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.calendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: commit
-          output_branch: github-metrics
+          committer_branch: github-metrics
           base: ""
           plugin_calendar: yes
 
-      - name: Contributors by categories
+      - name: Contributors by Categories
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.contributors.categories.svg
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: commit
-          output_branch: github-metrics
+          committer_branch: github-metrics
           base: ""
           template: repository
           repo: metrics
