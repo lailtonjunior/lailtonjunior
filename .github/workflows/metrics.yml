@@ -1,155 +1,126 @@
-# Nome do Workflow para identificação na aba "Actions" do GitHub
-name: Métricas Completas do Perfil (SkaliKing)
+name: 🦉 GitHub Metrics Full Setup
 
-# Gatilhos: Define quando este workflow deve ser executado
 on:
-  # Executa toda madrugada para manter as métricas atualizadas
-  schedule:
-    - cron: '0 3 * * *' # 03:00 UTC
-  # Permite que você execute o workflow manualmente pela aba "Actions"
+  schedule: [{ cron: "0 0 * * *" }]
   workflow_dispatch:
-  # Executa toda vez que você envia um commit para a branch principal
-  push:
-    branches:
-      - main
-      - master
 
-# Define todos os "trabalhos" (jobs) a serem executados em paralelo
 jobs:
-  # Job para Linguagens, Linhas de Código e Contribuições
-  languages_and_lines:
-    name: "Linguagens, Linhas e Contribs"
+  github-metrics:
     runs-on: ubuntu-latest
-    permissions: { contents: write }
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Base Metrics
+        uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: lailtonjunior
-          filename: metrics.languages.svg
-          base: "" # Base vazia para um card limpo
-          config_display: "dark, nocturnal"
-          config_timezone: America/Sao_Paulo
-          # Plugins a serem incluídos neste card
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_lines: yes
+          filename: metrics.base.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: github-metrics
+          base: header, activity, community, repositories, metadata
+
+      - name: Achievements Compact
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.achievements.compact.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: github-metrics
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+
+      - name: Activity
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.activity.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: github-metrics
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 0
+          plugin_activity_filter: issue, pr, release, fork, review, ref/create
+
+      - name: Calendar Compact
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.calendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: github-metrics
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
+          plugin_calendar_compact: yes
+
+      - name: Code Stats
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.code.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: github-metrics
+          plugin_code: yes
+          plugin_code_languages: javascript, typescript, python, html, css, sql
+
+      - name: Contributors by Categories
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.contributors.categories.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: github-metrics
           plugin_contributors: yes
-          plugin_contributors_sections: "projects" # Contribuições em projetos
+          plugin_contributors_sections: categories
+          plugin_contributors_categories: |
+            {
+              "Plugins / Templates": ["source/plugins/**", "source/templates/**"],
+              "Documentation": ["README.md", "**/README.md", "**/metadata.yml"],
+              "Code": ["source/**", "Dockerfile"]
+            }
 
-  # Job para Hábitos de Codificação
-  habits:
-    name: "Hábitos de Codificação"
-    runs-on: ubuntu-latest
-    permissions: { contents: write }
-    steps:
-      - uses: lowlighter/metrics@latest
+      - name: Discussions Participation
+        uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: lailtonjunior
-          filename: metrics.habits.svg
-          base: ""
-          config_display: "dark, nocturnal"
-          config_timezone: America/Sao_Paulo
-          plugin_habits: yes
-          plugin_habits_charts: yes # Mostra os gráficos de hora/dia
-
-  # Job para Projetos e Discussões
-  projects_and_discussions:
-    name: "Projetos e Discussões"
-    runs-on: ubuntu-latest
-    permissions: { contents: write }
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: lailtonjunior
-          filename: metrics.projects.svg
-          base: ""
-          config_display: "dark, nocturnal"
-          config_timezone: America/Sao_Paulo
-          plugin_projects: yes
-          plugin_projects_limit: 4
+          filename: metrics.plugin.discussions.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: github-metrics
           plugin_discussions: yes
 
-  # Job para Conquistas (Achievements)
-  achievements:
-    name: "Conquistas"
-    runs-on: ubuntu-latest
-    permissions: { contents: write }
-    steps:
-      - uses: lowlighter/metrics@latest
+      - name: Habits
+        uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: lailtonjunior
-          filename: metrics.achievements.svg
-          base: ""
-          config_display: "dark, nocturnal"
-          plugin_achievements: yes
-          plugin_achievements_threshold: C # Mostra do Rank S ao C
+          filename: metrics.plugin.habits.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: github-metrics
+          plugin_habits: yes
 
-  # Job para Calendário Compacto
-  calendar:
-    name: "Calendário Compacto"
-    runs-on: ubuntu-latest
-    permissions: { contents: write }
-    steps:
-      - uses: lowlighter/metrics@latest
+      - name: Languages Used
+        uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: lailtonjunior
-          filename: metrics.calendar.svg
-          base: ""
-          config_display: "dark, nocturnal"
-          plugin_calendar: yes
-          plugin_calendar_limit: 1 # Usa a versão compacta do calendário
+          filename: metrics.plugin.languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: github-metrics
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_sections: most-used
 
-  # Job para Tráfego do Repositório
-  traffic:
-    name: "Tráfego"
-    runs-on: ubuntu-latest
-    permissions: { contents: write }
-    steps:
-      - uses: lowlighter/metrics@latest
+      - name: Notable Projects
+        uses: lowlighter/metrics@latest
         with:
-          # NOTA: O token padrão tem acesso limitado. Para tráfego, pode ser necessário
-          # criar um Personal Access Token (PAT) com permissão de 'repo' e salvá-lo
-          # como um secret chamado METRICS_TOKEN_WITH_REPO_ACCESS no seu repositório.
-          token: ${{ secrets.METRICS_TOKEN_WITH_REPO_ACCESS || secrets.GITHUB_TOKEN }}
-          user: lailtonjunior
-          filename: metrics.traffic.svg
-          base: ""
-          config_display: "dark, nocturnal"
+          filename: metrics.plugin.projects.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: github-metrics
+          plugin_projects: yes
+          plugin_projects_limit: 4
+          plugin_projects_descriptions: yes
+
+      - name: Traffic
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.traffic.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          committer_branch: github-metrics
           plugin_traffic: yes
-
-  # Job para Atividade Recente
-  activity:
-    name: "Atividade Recente"
-    runs-on: ubuntu-latest
-    permissions: { contents: write }
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: lailtonjunior
-          filename: metrics.activity.svg
-          base: ""
-          config_display: "dark, nocturnal"
-          plugin_activity: yes
-          plugin_activity_limit: 5 # Número de atividades a serem mostradas
-
-  # Job para Trecho de Código Aleatório
-  code:
-    name: "Trecho de Código Aleatório"
-    runs-on: ubuntu-latest
-    permissions: { contents: write }
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: lailtonjunior
-          filename: metrics.code.svg
-          base: ""
-          config_display: "dark, nocturnal"
-          plugin_code: yes
-          plugin_code_lines: 6 # Número de linhas do trecho
