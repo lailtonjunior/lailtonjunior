@@ -1,75 +1,95 @@
-name: 🦉 GitHub Metrics Full Setup
+# Nome do Workflow para identificação na aba "Actions" do GitHub
+name: Métricas Completas do Perfil
 
+# Gatilhos: Define quando este workflow deve ser executado
 on:
-  schedule: [{ cron: "0 0 * * *" }]  # Roda diariamente
+  # Executa toda madrugada (às 03:00 UTC)
+  schedule:
+    - cron: '0 3 * * *'
+  # Permite que você execute o workflow manualmente pela aba "Actions"
   workflow_dispatch:
+  # Executa toda vez que você envia um commit para a branch principal
+  push:
+    branches:
+      - main
+      - master
 
+# Define os "trabalhos" (jobs) a serem executados
 jobs:
   github-metrics:
+    # Usa a versão mais recente do Ubuntu como ambiente de execução
     runs-on: ubuntu-latest
+    # Permissão necessária para que a action possa salvar a imagem no repositório
+    permissions:
+      contents: write
+    # Passos que o job irá executar
     steps:
-      - name: Default Metrics (Base)
-        uses: lowlighter/metrics@latest
+      # Usa a action 'lowlighter/metrics'
+      - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.base.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          output_action: commit
-          committer_branch: github-metrics
-          base: header, activity, community, repositories, metadata
+          # Token do GitHub, essencial para a API. Não altere esta linha.
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Achievements Compact
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.achievements.compact.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          output_action: commit
-          committer_branch: github-metrics
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_only: >-
-            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
-            scripter, packager, explorer, infographile, manager
-          plugin_achievements_threshold: X
+          # --- CONFIGURAÇÕES GERAIS ---
+          # Repositório base. Pega seu usuário automaticamente.
+          user: ${{ github.repository_owner }}
+          # Template principal para o layout da imagem
+          template: classic
+          # Nome do arquivo de imagem que será gerado e salvo
+          filename: metrics.svg
+          # Plugins base (essenciais para o layout, não remova)
+          base: activity, community, repositories, metadata
 
-      - name: Recent Activity
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.activity.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          output_action: commit
-          committer_branch: github-metrics
-          base: ""
+          # --- PLUGINS E SUAS CONFIGURAÇÕES DETALHADAS ---
+          # Cada seção abaixo corresponde a um "card" na imagem final.
+          
+          # Plugin de Atividade: Mostra sua atividade recente no GitHub.
           plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 0
-          plugin_activity_filter: issue, pr, release, fork, review, ref/create
-
-      - name: Yearly Calendar
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.calendar.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          output_action: commit
-          committer_branch: github-metrics
-          base: ""
-          plugin_calendar: yes
-
-      - name: Contributors by Categories
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.contributors.categories.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          output_action: commit
-          committer_branch: github-metrics
-          base: ""
-          template: repository
-          repo: metrics
-          plugin_contributors: yes
-          plugin_contributors_sections: categories
-          plugin_contributors_categories: |
-            {
-              "🧩 Plugins / 🖼️ templates": ["source/plugins/**", "source/templates/**"],
-              "📚 Documentation": ["README.md", "**/README.md", "**/metadata.yml"],
-              "💻 Code (other)": ["source/**", "Dockerfile"]
-            }
+          plugin_activity_limit: 5         # Número de eventos a exibir
+          plugin_activity_days: 14         # Dias de atividade para buscar (0 = desde sempre)
+          plugin_activity_filter: all      # Filtro de eventos (commit, issue, pr, etc.)
+          
+          # Plugin de Conquistas (Achievements): Exibe as conquistas que você desbloqueou.
+          plugin_achievements: yes
+          plugin_achievements_threshold: C # Mostra conquistas a partir do Rank C (S, A, B, C)
+          plugin_achievements_secrets: yes # Habilita a exibição de conquistas "secretas"
+          
+          # Plugin de Hábitos de Codificação: Analisa seus horários de commit.
+          plugin_habits: yes
+          plugin_habits_from: 200          # Analisa os últimos 200 commits para precisão
+          plugin_habits_days: 14           # Analisa as últimas 2 semanas
+          plugin_habits_charts: yes        # Exibe gráficos de commits por dia da semana e hora do dia
+          
+          # Plugin de Calendário Isométrico: Visão 3D dos commits do ano.
+          plugin_isocalendar: yes
+          
+          # Plugin de Linguagens de Programação: Análise detalhada do uso de linguagens.
+          plugin_languages: yes
+          plugin_languages_limit: 8        # Mostra as 8 linguagens mais usadas
+          plugin_languages_threshold: 0%   # Limite mínimo de uso para aparecer na lista
+          plugin_languages_colors: github  # Usa as cores oficiais do GitHub para cada linguagem
+          
+          # Plugin de Linhas de Código: Conta o total de linhas adicionadas/removidas.
+          plugin_lines: yes
+          
+          # Plugin de Pessoas: Mostra seus seguidores e as pessoas que você segue.
+          plugin_people: yes
+          plugin_people_types: followers, following # Tipos de pessoas a mostrar
+          
+          # Plugin de Repositórios em Destaque: Mostra seus repositórios com mais estrelas.
+          plugin_stars: yes
+          plugin_stars_limit: 4 # Mostra os 4 repositórios mais populares
+          
+          # Plugin do Stack Overflow: Mostra sua reputação e estatísticas.
+          # (Requer configuração extra: adicione seu ID de usuário do Stack Overflow)
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_user: "[SEU_ID_DO_STACKOVERFLOW]" # Substitua pelo seu ID numérico
+          
+          # --- PERSONALIZAÇÃO AVANÇADA DO VISUAL ---
+          
+          # Fuso horário para exibir datas e horários corretamente
+          config_timezone: America/Sao_Paulo
+          # Tema escuro e moderno
+          config_display: "dark, nocturnal"
+          # Adiciona um gradiente sutil ao fundo
+          config_gradient: " ट्रू" # (Sintaxe esperada pela action)
