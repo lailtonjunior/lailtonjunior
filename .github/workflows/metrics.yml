@@ -1,4 +1,4 @@
-name: 🦉 GitHub Metrics
+name: 🦉 GitHub Metrics Full Setup
 
 on:
   schedule: [{cron: "0 0 * * *"}]
@@ -8,27 +8,58 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate Metrics
+      - name: Default metrics
         uses: lowlighter/metrics@latest
         with:
+          filename: metrics.base.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          user: lailtonjunior
-
           base: header, activity, community, repositories, metadata
-          config_timezone: America/Sao_Paulo
 
-          # Plugins ativados:
+      - name: Compact display (Achievements)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.achievements.compact.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
           plugin_achievements: yes
+          plugin_achievements_only: >-
+            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
+            scripter, packager, explorer, infographile, manager
           plugin_achievements_display: compact
+          plugin_achievements_threshold: X
 
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+      - name: Recent activity
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.activity.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 0
+          plugin_activity_filter: issue, pr, release, fork, review, ref/create
 
-          plugin_topics: yes
-          plugin_topics_mode: icons
+      - name: Current year calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.calendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_calendar: yes
 
-          plugin_starlists: yes
-          plugin_starlists_languages: yes
-
-          # Linguagens
-          plugin_languages: yes
+      - name: Contributors by categories
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.contributors.categories.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          template: repository
+          repo: metrics
+          plugin_contributors: yes
+          plugin_contributors_sections: categories
+          plugin_contributors_categories: |
+            {
+              "🧩 Plugins / 🖼️ templates": ["source/plugins/**", "source/templates/**"],
+              "📚 Documentation": ["README.md", "**/README.md", "**/metadata.yml"],
+              "💻 Code (other)": ["source/**", "Dockerfile"]
+            }
