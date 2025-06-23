@@ -35,7 +35,7 @@ Técnico em informática no setor público (APAE Colinas), acadêmico de **Anál
 
 ---
 
-### 🏆 Achievements (via GitHub Metrics)
+<!-- ### 🏆 Achievements (via GitHub Metrics)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.achievements.compact.svg" alt="Achievements" />
@@ -52,7 +52,7 @@ Técnico em informática no setor público (APAE Colinas), acadêmico de **Anál
   <img src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.projects.svg" alt="Projects" />
   <img src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.traffic.svg" alt="Traffic" />
 </p>
-
+-->
 ---
 
 ### ⚙️ Projetos em destaque
