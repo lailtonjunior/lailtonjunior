@@ -13,6 +13,8 @@ jobs:
         with:
           filename: metrics.base.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          output_branch: github-metrics
           base: header, activity, community, repositories, metadata
 
       - name: Compact display (Achievements)
@@ -20,6 +22,8 @@ jobs:
         with:
           filename: metrics.plugin.achievements.compact.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          output_branch: github-metrics
           base: ""
           plugin_achievements: yes
           plugin_achievements_only: >-
@@ -33,6 +37,8 @@ jobs:
         with:
           filename: metrics.plugin.activity.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          output_branch: github-metrics
           base: ""
           plugin_activity: yes
           plugin_activity_limit: 5
@@ -44,6 +50,8 @@ jobs:
         with:
           filename: metrics.plugin.calendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          output_branch: github-metrics
           base: ""
           plugin_calendar: yes
 
@@ -52,6 +60,8 @@ jobs:
         with:
           filename: metrics.plugin.contributors.categories.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          output_action: commit
+          output_branch: github-metrics
           base: ""
           template: repository
           repo: metrics
