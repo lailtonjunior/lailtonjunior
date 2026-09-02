@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" role="img" aria-labelledby="title desc">
+  <title id="title">Current focus</title>
+  <desc id="desc">A modern terminal panel listing AI-assisted development, agentic coding workflows, healthcare technology, workflow automation, and product engineering.</desc>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+    .command { font-size: 24px; font-weight: 700; }
+    .line { font-size: 22px; }
+    .small { font-size: 16px; letter-spacing: 1px; }
+  </style>
+
+  <rect width="900" height="440" rx="16" fill="#15161D" />
+  <rect x="1" y="1" width="898" height="438" rx="15" fill="none" stroke="#393B45" stroke-width="2" />
+  <rect x="0" y="0" width="7" height="440" rx="3.5" fill="#FF7A3D" />
+
+  <circle cx="39" cy="31" r="6" fill="#FF7A3D" />
+  <circle cx="60" cy="31" r="6" fill="#C7A24C" />
+  <circle cx="81" cy="31" r="6" fill="#63B34F" />
+  <text x="855" y="37" text-anchor="end" class="mono small" fill="#8F9099">CURRENT_SESSION</text>
+  <path d="M24 58H876" stroke="#393B45" />
+
+  <text x="50" y="103" class="mono command" fill="#63B34F">$ focus --now</text>
+  <text x="64" y="145" class="mono line" fill="#E8E6E1"><tspan fill="#63B34F">✓</tspan> ai-assisted development</text>
+  <text x="64" y="181" class="mono line" fill="#E8E6E1"><tspan fill="#63B34F">✓</tspan> agentic coding workflows</text>
+  <text x="64" y="217" class="mono line" fill="#E8E6E1"><tspan fill="#63B34F">✓</tspan> healthcare technology</text>
+  <text x="64" y="253" class="mono line" fill="#E8E6E1"><tspan fill="#63B34F">✓</tspan> workflow automation</text>
+  <text x="64" y="289" class="mono line" fill="#E8E6E1"><tspan fill="#63B34F">✓</tspan> product engineering</text>
+
+  <path d="M50 318H850" stroke="#393B45" />
+  <text x="50" y="365" class="mono command" fill="#63B34F">$ status</text>
+  <text x="64" y="405" class="mono line" fill="#E8E6E1">shipping <tspan fill="#FF7A3D" font-weight="700">useful software</tspan><tspan fill="#C7A24C">_</tspan></text>
+</svg>
