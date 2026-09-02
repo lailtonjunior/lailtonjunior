@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+  <title id="title">Lailton Júnior — software for real work</title>
+  <desc id="desc">Editorial terminal-inspired banner introducing Lailton Júnior as a developer who builds real systems with AI, automation, and healthcare technology.</desc>
+  <style>
+    .ui { font-family: Inter, Arial, system-ui, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+    .label { font-size: 15px; font-weight: 700; letter-spacing: 2px; }
+    .title { font-size: 122px; font-weight: 800; letter-spacing: -4px; }
+    .subtitle { font-size: 20px; font-weight: 600; letter-spacing: 3px; }
+    .terminal-label { font-size: 17px; font-weight: 700; }
+    .terminal-copy { font-size: 16px; }
+    @media (max-width: 620px) {
+      .terminal-panel, .top-right { display: none; }
+      .hero-copy { transform: translate(15px, -36px) scale(1.1); transform-origin: 0 0; }
+      .title { font-size: 134px; }
+      .subtitle { font-size: 23px; }
+    }
+  </style>
+
+  <rect width="1200" height="470" rx="18" fill="#15161D" />
+  <circle cx="32" cy="28" r="7" fill="#FF7A3D" />
+  <circle cx="55" cy="28" r="7" fill="#C7A24C" />
+  <circle cx="78" cy="28" r="7" fill="#63B34F" />
+  <text x="112" y="34" class="mono" font-size="16" fill="#8F9099">~/lailtonjunior</text>
+  <text x="1168" y="34" text-anchor="end" class="mono label top-right" fill="#FF7A3D">BUILDING REAL SYSTEMS WITH AI</text>
+  <path d="M28 55H1172" stroke="#393B45" />
+
+  <g class="hero-copy">
+    <text x="42" y="102" class="mono label" fill="#C7A24C">// SOFTWARE FOR REAL WORK</text>
+    <text x="38" y="226" class="ui title" fill="#FF7A3D">LAILTON</text>
+    <text x="38" y="338" class="ui title" fill="#FF7A3D">JÚNIOR</text>
+    <rect x="510" y="346" width="62" height="10" fill="#C7A24C" />
+    <text x="43" y="390" class="mono subtitle" fill="#E8E6E1">AI · AUTOMATION · HEALTHCARE · SOFTWARE</text>
+    <rect x="43" y="423" width="96" height="7" fill="#FF7A3D" />
+    <rect x="145" y="423" width="48" height="7" fill="#C7A24C" />
+    <rect x="199" y="423" width="48" height="7" fill="#63B34F" />
+    <rect x="253" y="423" width="48" height="7" fill="#4A90D9" />
+  </g>
+
+  <g class="terminal-panel">
+    <rect x="738" y="84" width="418" height="326" rx="9" fill="#111218" stroke="#393B45" />
+    <rect x="738" y="84" width="5" height="326" rx="2.5" fill="#FF7A3D" />
+
+    <text x="774" y="124" class="mono terminal-label" fill="#63B34F">$ whoami</text>
+    <text x="784" y="151" class="mono terminal-copy" fill="#E8E6E1">developer · builder · problem solver</text>
+    <text x="784" y="176" class="mono terminal-copy" fill="#B8B7BC">automation · healthtech · ai</text>
+
+    <text x="774" y="217" class="mono terminal-label" fill="#63B34F">$ location</text>
+    <text x="784" y="244" class="mono terminal-copy" fill="#E8E6E1">Brazil</text>
+
+    <text x="774" y="285" class="mono terminal-label" fill="#63B34F">$ mindset</text>
+    <text x="784" y="312" class="mono terminal-copy" fill="#E8E6E1">Code is a tool.</text>
+    <text x="784" y="337" class="mono terminal-copy" fill="#E8E6E1">Systems are the solution.</text>
+    <text x="784" y="362" class="mono terminal-copy" fill="#E8E6E1">People are the reason.</text>
+
+    <text x="774" y="396" class="mono terminal-label" fill="#63B34F">$ building <tspan fill="#FF7A3D">real solutions_</tspan></text>
+  </g>
+</svg>
