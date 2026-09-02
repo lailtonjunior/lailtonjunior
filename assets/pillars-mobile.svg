@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 980" role="img" aria-labelledby="title desc">
+  <title id="title">What I build</title>
+  <desc id="desc">Mobile layout for four areas of work: health systems, automation, AI products, and internal tools.</desc>
+  <style>
+    .ui { font-family: Inter, Arial, system-ui, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+    .name { font-size: 25px; font-weight: 750; letter-spacing: 1px; }
+    .copy { font-size: 20px; }
+    .number { font-size: 18px; font-weight: 700; }
+    .icon { fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+
+  <rect width="720" height="980" rx="18" fill="#15161D" />
+  <circle cx="30" cy="28" r="6" fill="#FF7A3D" />
+  <circle cx="51" cy="28" r="6" fill="#C7A24C" />
+  <circle cx="72" cy="28" r="6" fill="#63B34F" />
+  <text x="686" y="35" text-anchor="end" class="mono" font-size="16" letter-spacing="1.5" fill="#8F9099">BUILD_DOMAINS</text>
+  <path d="M24 56H696" stroke="#393B45" />
+
+  <g>
+    <rect x="26" y="80" width="668" height="200" rx="10" fill="#111218" stroke="#393B45" />
+    <rect x="26" y="80" width="6" height="200" rx="3" fill="#FF7A3D" />
+    <text x="55" y="116" class="mono number" fill="#FF7A3D">01</text>
+    <rect x="58" y="142" width="66" height="66" rx="18" fill="#FF7A3D" opacity="0.12" />
+    <path class="icon" stroke="#FF7A3D" d="M91 157v36M73 175h36" />
+    <text x="156" y="151" class="mono name" fill="#E8E6E1">HEALTH SYSTEMS</text>
+    <text x="156" y="190" class="ui copy" fill="#B8B7BC">Healthcare operations, rehabilitation,</text>
+    <text x="156" y="221" class="ui copy" fill="#B8B7BC">management, and public services.</text>
+  </g>
+
+  <g>
+    <rect x="26" y="300" width="668" height="200" rx="10" fill="#111218" stroke="#393B45" />
+    <rect x="26" y="300" width="6" height="200" rx="3" fill="#C7A24C" />
+    <text x="55" y="336" class="mono number" fill="#C7A24C">02</text>
+    <circle cx="91" cy="395" r="27" class="icon" stroke="#C7A24C" />
+    <circle cx="91" cy="395" r="10" class="icon" stroke="#C7A24C" />
+    <path class="icon" stroke="#C7A24C" d="M91 359v9M91 422v9M55 395h9M118 395h9" />
+    <text x="156" y="371" class="mono name" fill="#E8E6E1">AUTOMATION</text>
+    <text x="156" y="410" class="ui copy" fill="#B8B7BC">Manual processes become reliable,</text>
+    <text x="156" y="441" class="ui copy" fill="#B8B7BC">repeatable, digital workflows.</text>
+  </g>
+
+  <g>
+    <rect x="26" y="520" width="668" height="200" rx="10" fill="#111218" stroke="#393B45" />
+    <rect x="26" y="520" width="6" height="200" rx="3" fill="#63B34F" />
+    <text x="55" y="556" class="mono number" fill="#63B34F">03</text>
+    <path class="icon" stroke="#63B34F" d="M62 611l29 17 29-17M91 628v31" />
+    <circle cx="62" cy="611" r="7" fill="#15161D" stroke="#63B34F" stroke-width="3" />
+    <circle cx="120" cy="611" r="7" fill="#15161D" stroke="#63B34F" stroke-width="3" />
+    <circle cx="91" cy="659" r="7" fill="#15161D" stroke="#63B34F" stroke-width="3" />
+    <text x="156" y="591" class="mono name" fill="#E8E6E1">AI PRODUCTS</text>
+    <text x="156" y="630" class="ui copy" fill="#B8B7BC">Applications and agents designed</text>
+    <text x="156" y="661" class="ui copy" fill="#B8B7BC">around real use cases.</text>
+  </g>
+
+  <g>
+    <rect x="26" y="740" width="668" height="200" rx="10" fill="#111218" stroke="#393B45" />
+    <rect x="26" y="740" width="6" height="200" rx="3" fill="#4A90D9" />
+    <text x="55" y="776" class="mono number" fill="#4A90D9">04</text>
+    <rect x="58" y="819" width="66" height="54" rx="8" class="icon" stroke="#4A90D9" />
+    <path class="icon" stroke="#4A90D9" d="M72 833l10 12-10 12M91 858h19" />
+    <text x="156" y="811" class="mono name" fill="#E8E6E1">INTERNAL TOOLS</text>
+    <text x="156" y="850" class="ui copy" fill="#B8B7BC">Focused software for specific team</text>
+    <text x="156" y="881" class="ui copy" fill="#B8B7BC">and organization problems.</text>
+  </g>
+</svg>
