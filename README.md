@@ -1,97 +1,136 @@
-<!-- README.md para o perfil GitHub de Lailton Junior (skaliking) -->
-
-<h1 align="center">👑 Skaliking — Code with Soul, Build with Purpose</h1>
-<p align="center">
-  <i>“Desenvolvedor por paixão, guerreiro por vocação — construindo soluções reais, com um toque de arte.”</i>
-</p>
-
-<p align="center">
-  <a href="https://github.com/lailtonjunior"><img src="https://img.shields.io/badge/GitHub-lailtonjunior-181717?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a>
-  <img src="https://komarev.com/ghpvc/?username=lailtonjunior&label=Profile+views&color=blueviolet&style=flat" alt="views"/>
-</p>
-
----
-
-### 🧠 Sobre mim
-
-Sou **Lailton Junior**, mas pode me chamar de **skaliking** 👑  
-Técnico em informática no setor público (APAE Colinas), acadêmico de **Análise e Desenvolvimento de Sistemas**, e criador de ferramentas que simplificam a vida real de pessoas e instituições.  
-
-💡 Amo transformar sistemas de saúde com **código limpo, visual, acessível e funcional.**  
-🎯 Crio soluções para **órteses e próteses, reabilitação auditiva e intelectual**, e automatizo processos com **Python, Google Sheets, IA e APIs**.
-
----
-
-### 🚀 Tecnologias que domino e amo estudar
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</p>
-
----
-
-<!-- ### 🏆 Achievements (via GitHub Metrics)
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.achievements.compact.svg" alt="Achievements" />
-</p>
-
----
-
-### 📈 GitHub Metrics em ação
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.base.svg" alt="Base Metrics" />
-  <img src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.languages.svg" alt="Languages Used" />
-  <img src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.calendar.svg" alt="Commit Calendar" />
-  <img src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.projects.svg" alt="Projects" />
-  <img src="https://raw.githubusercontent.com/lailtonjunior/lailtonjunior/github-metrics/metrics.plugin.traffic.svg" alt="Traffic" />
-</p>
+<!--
+  GitHub profile README for Lailton Júnior.
+  Visual assets are local, dependency-free SVGs designed for GitHub rendering.
 -->
----
-
-### ⚙️ Projetos em destaque
-
-- 🧠 **PRONASys Suite** — Plataforma para elaboração automatizada de projetos médico-assistenciais.
-- 🩺 **Ferramentas para o SUS** — Scripts e bancos de dados para agilizar a rotina de profissionais da saúde.
-- 🔍 **Sistemas de reabilitação** — Aplicações voltadas à gestão de reabilitação intelectual e auditiva.
-
----
-
-### 📚 Plugins e Recursos usados
-
-> Alguns dos plugins incríveis que uso via [lowlighter/metrics](https://github.com/lowlighter/metrics):
-
-- [Core](https://github.com/lowlighter/metrics/blob/master/source/plugins/core/README.md)
-- [Base](https://github.com/lowlighter/metrics/blob/master/source/plugins/base/README.md)
-- [Achievements](https://github.com/lowlighter/metrics/blob/master/source/plugins/achievements/README.md)
-- [Activity](https://github.com/lowlighter/metrics/blob/master/source/plugins/activity/README.md)
-- [Calendar](https://github.com/lowlighter/metrics/blob/master/source/plugins/calendar/README.md)
-- [Code](https://github.com/lowlighter/metrics/blob/master/source/plugins/code/README.md)
-- [Contributors](https://github.com/lowlighter/metrics/blob/master/source/plugins/contributors/README.md)
-- [Discussions](https://github.com/lowlighter/metrics/blob/master/source/plugins/discussions/README.md)
-- [Habits](https://github.com/lowlighter/metrics/blob/master/source/plugins/habits/README.md)
-- [Languages](https://github.com/lowlighter/metrics/blob/master/source/plugins/languages/README.md)
-- [Projects](https://github.com/lowlighter/metrics/blob/master/source/plugins/projects/README.md)
-- [Traffic](https://github.com/lowlighter/metrics/blob/master/source/plugins/traffic/README.md)
-
----
-
-### 👾 Vibe do perfil
 
 <p align="center">
-  <img src="https://media.giphy.com/media/n7UevNKEuepLW/giphy.gif" width="400" alt="Programando com estilo anime" />
+  <img src="./assets/hero.svg" width="100%" alt="Lailton Júnior — software engineer building real-world systems with AI, automation, and healthcare technology." />
 </p>
 
-<p align="center"><i>“Always coding beyond the limits ⌨️👾”</i></p>
+## 01 / ABOUT
+
+I build software that solves real operational problems.
+
+My work sits at the intersection of software engineering, automation, artificial intelligence, and healthcare. I turn complex workflows into digital products that are clear, reliable, and useful in practice.
+
+`Brazil` · `Open to building useful systems`
 
 ---
 
-💬 **Sinta-se à vontade para abrir uma issue, contribuir ou me seguir!**  
-Feito com 💙 por skaliking — *“Código com propósito transforma o mundo.”*
+## 02 / WHAT I BUILD
 
+|  | AREA | WHAT IT MEANS |
+|:--:|---|---|
+| `01` | **HEALTH SYSTEMS** | Digital tools for healthcare operations, rehabilitation, management, and public services. |
+| `02` | **AUTOMATION** | Turning repetitive and manual processes into reliable digital workflows. |
+| `03` | **AI PRODUCTS** | Applications, agents, and AI-assisted systems designed around real use cases. |
+| `04` | **INTERNAL TOOLS** | Focused software that solves specific problems for teams and organizations. |
+
+---
+
+## 03 / CURRENT FOCUS
+
+<p align="center">
+  <img src="./assets/terminal.svg" width="100%" alt="Current focus: AI-assisted development, agentic coding workflows, healthcare technology, workflow automation, and product engineering. Status: shipping useful software." />
+</p>
+
+---
+
+## 04 / SELECTED WORK
+
+<table>
+  <tr>
+    <td>
+      <strong>PRONAS SYS SUITE</strong><br />
+      <sub>HEALTHCARE · AUTOMATION · AI</sub>
+      <p>A multi-LLM assistant for structuring PRONAS/PCD healthcare projects, combining contextual generation with retrieval-backed knowledge.</p>
+      <code>Python</code> <code>FastAPI</code> <code>React</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Qdrant</code><br /><br />
+      <a href="https://github.com/lailtonjunior/pronas-sys-suite-v2"><strong>VIEW PROJECT →</strong></a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <strong>FLOWCER4</strong><br />
+      <sub>HEALTHCARE · SCHEDULING · OPERATIONS</sub>
+      <p>A multidisciplinary clinic scheduling system with administrative workflows, conflict validation, real-time views, and audit trails.</p>
+      <code>TypeScript</code> <code>Next.js</code> <code>React</code> <code>Supabase</code> <code>PostgreSQL</code><br /><br />
+      <a href="https://github.com/lailtonjunior/flowcer4"><strong>VIEW PROJECT →</strong></a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <strong>FISCALZEN</strong><br />
+      <sub>FISCAL OPERATIONS · AUTOMATION · PLATFORM</sub>
+      <p>A fiscal application for SEFAZ integrations, organized as a TypeScript monorepo with web, API, data, XML, and document packages.</p>
+      <code>TypeScript</code> <code>Next.js</code> <code>Fastify</code> <code>PostgreSQL</code> <code>Drizzle</code> <code>Docker</code><br /><br />
+      <a href="https://github.com/lailtonjunior/fiscalzen-project"><strong>VIEW PROJECT →</strong></a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <strong>CLINIC AI / NEXUSCLIN</strong><br />
+      <sub>HEALTHCARE · CLINICAL OPERATIONS · SUS</sub>
+      <p>A multiprofessional health record and clinic management system with SUS billing workflows for rehabilitation centers.</p>
+      <code>Python</code> <code>FastAPI</code> <code>Next.js</code> <code>PostgreSQL</code> <code>Redis</code> <code>Docker</code><br /><br />
+      <a href="https://github.com/lailtonjunior/clinic_AI"><strong>VIEW PROJECT →</strong></a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 05 / HOW I BUILD
+
+<p align="center">
+  <strong>RESEARCH</strong> → <strong>SPECIFICATION</strong> → <strong>BUILD</strong> → <strong>TEST</strong> → <strong>REVIEW</strong> → <strong>DEPLOY</strong>
+</p>
+
+> **AI accelerates the work.**<br />
+> Engineering defines the direction.
+
+---
+
+## 06 / TOOLBOX
+
+Only tools and technologies visible across the public work above are included here.
+
+| AREA | TOOLBOX |
+|---|---|
+| **LANGUAGES** | Python · TypeScript · JavaScript · SQL |
+| **WEB** | React · Next.js · FastAPI · Fastify · REST APIs |
+| **AI** | LLM workflows · RAG · AI agents · vector search |
+| **DATA** | PostgreSQL · Supabase · Qdrant · Redis |
+| **TOOLS** | Git · GitHub Actions · Docker · Pytest · Vitest |
+| **CLOUD** | Vercel · Supabase |
+
+---
+
+## 07 / GITHUB ACTIVITY
+
+One signal, kept intentionally simple. This contribution calendar is generated by the repository's existing GitHub Metrics workflow.
+
+<p align="center">
+  <img src="./metrics.calendar.svg" width="100%" alt="Lailton Júnior's dynamically generated GitHub contribution calendar." />
+</p>
+
+---
+
+## 08 / CONNECT
+
+**GITHUB**<br />
+[github.com/lailtonjunior](https://github.com/lailtonjunior)
+
+---
+
+<p align="center">
+  <img src="./assets/signature.svg" width="100%" alt="Building real systems and solving real problems — Lailton Júnior." />
+</p>
