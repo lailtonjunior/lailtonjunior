@@ -100,9 +100,67 @@ jobs:
           user: lailtonjunior
           filename: metrics.calendar.svg
           base: ""
-          config_display: "dark, nocturnal"
+          config_display: large
+          config_animations: no
+          config_padding: "12, 16"
           plugin_calendar: yes
           plugin_calendar_limit: 1 # Usa a versão compacta do calendário
+          # Mantém os dados dinâmicos do Metrics, mas alinha o SVG à identidade do perfil.
+          extras_css: |
+            svg {
+              color: #8F9099 !important;
+              font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace !important;
+            }
+            .items-wrapper {
+              box-sizing: border-box;
+              padding: 10px 12px;
+              background: #15161D !important;
+              border: 1px solid #393B45;
+              border-radius: 10px;
+            }
+            h2 {
+              color: #FF7A3D !important;
+              font-weight: 700 !important;
+              letter-spacing: 1px;
+            }
+            .field > svg {
+              fill: #FF7A3D !important;
+            }
+            svg.calendar text {
+              fill: #8F9099 !important;
+            }
+            .calendar .day {
+              fill: #22242C !important;
+              outline: 1px solid #393B45 !important;
+            }
+            .calendar .day[fill="#9be9a8"],
+            .calendar .day[fill="#dafbe1"],
+            .calendar .day[fill="#0e4429"],
+            .calendar .day[fill="#ffee4a"],
+            .calendar .day[fill="#0a3069"] {
+              fill: #5E4724 !important;
+            }
+            .calendar .day[fill="#40c463"],
+            .calendar .day[fill="#aceebb"],
+            .calendar .day[fill="#006d32"],
+            .calendar .day[fill="#ffc501"],
+            .calendar .day[fill="#0969da"] {
+              fill: #9C562D !important;
+            }
+            .calendar .day[fill="#30a14e"],
+            .calendar .day[fill="#4ac26b"],
+            .calendar .day[fill="#26a641"],
+            .calendar .day[fill="#fe9600"],
+            .calendar .day[fill="#54aeff"] {
+              fill: #D96734 !important;
+            }
+            .calendar .day[fill="#216e39"],
+            .calendar .day[fill="#116329"],
+            .calendar .day[fill="#39d353"],
+            .calendar .day[fill="#03001c"],
+            .calendar .day[fill="#b6e3ff"] {
+              fill: #FF7A3D !important;
+            }
 
   # Job para Tráfego do Repositório
   traffic:
