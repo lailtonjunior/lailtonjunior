@@ -3,9 +3,10 @@
   Visual assets are local, dependency-free SVGs designed for GitHub rendering.
 -->
 
-<p align="center">
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg" />
   <img src="./assets/hero.svg" width="100%" alt="Lailton Júnior — software engineer building real-world systems with AI, automation, and healthcare technology." />
-</p>
+</picture>
 
 ## 01 / ABOUT
 
@@ -19,20 +20,19 @@ My work sits at the intersection of software engineering, automation, artificial
 
 ## 02 / WHAT I BUILD
 
-|  | AREA | WHAT IT MEANS |
-|:--:|---|---|
-| `01` | **HEALTH SYSTEMS** | Digital tools for healthcare operations, rehabilitation, management, and public services. |
-| `02` | **AUTOMATION** | Turning repetitive and manual processes into reliable digital workflows. |
-| `03` | **AI PRODUCTS** | Applications, agents, and AI-assisted systems designed around real use cases. |
-| `04` | **INTERNAL TOOLS** | Focused software that solves specific problems for teams and organizations. |
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/pillars-mobile.svg" />
+  <img src="./assets/pillars.svg" width="100%" alt="Four build domains: health systems for healthcare operations and public services; automation for reliable digital workflows; AI products designed around real use cases; and focused internal tools for teams and organizations." />
+</picture>
 
 ---
 
 ## 03 / CURRENT FOCUS
 
-<p align="center">
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/terminal-mobile.svg" />
   <img src="./assets/terminal.svg" width="100%" alt="Current focus: AI-assisted development, agentic coding workflows, healthcare technology, workflow automation, and product engineering. Status: shipping useful software." />
-</p>
+</picture>
 
 ---
 
@@ -90,27 +90,19 @@ My work sits at the intersection of software engineering, automation, artificial
 
 ## 05 / HOW I BUILD
 
-<p align="center">
-  <strong>RESEARCH</strong> → <strong>SPECIFICATION</strong> → <strong>BUILD</strong> → <strong>TEST</strong> → <strong>REVIEW</strong> → <strong>DEPLOY</strong>
-</p>
-
-> **AI accelerates the work.**<br />
-> Engineering defines the direction.
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/process-mobile.svg" />
+  <img src="./assets/process.svg" width="100%" alt="Engineering process: research, specification, build, test, review, and deploy. AI accelerates the work; engineering defines the direction." />
+</picture>
 
 ---
 
 ## 06 / TOOLBOX
 
-Only tools and technologies visible across the public work above are included here.
-
-| AREA | TOOLBOX |
-|---|---|
-| **LANGUAGES** | Python · TypeScript · JavaScript · SQL |
-| **WEB** | React · Next.js · FastAPI · Fastify · REST APIs |
-| **AI** | LLM workflows · RAG · AI agents · vector search |
-| **DATA** | PostgreSQL · Supabase · Qdrant · Redis |
-| **TOOLS** | Git · GitHub Actions · Docker · Pytest · Vitest |
-| **CLOUD** | Vercel · Supabase |
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/toolbox-mobile.svg" />
+  <img src="./assets/toolbox.svg" width="100%" alt="Verified toolbox. Languages: Python, TypeScript, JavaScript, and SQL. Web: React, Next.js, FastAPI, Fastify, and REST APIs. AI: LLM workflows, RAG, AI agents, and vector search. Data: PostgreSQL, Supabase, Qdrant, and Redis. Tools: Git, GitHub Actions, Docker, Pytest, and Vitest. Cloud: Vercel and Supabase." />
+</picture>
 
 ---
 
