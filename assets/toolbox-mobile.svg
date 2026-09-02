@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Verified toolbox</title>
+  <desc id="desc">Mobile layout of technologies visible in public work, grouped into languages, web, AI, data, tools, and cloud.</desc>
+  <style>
+    .ui { font-family: Inter, Arial, system-ui, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+    .name { font-size: 25px; font-weight: 750; letter-spacing: 1px; }
+    .copy { font-size: 21px; }
+  </style>
+
+  <rect width="720" height="1040" rx="18" fill="#15161D" />
+  <circle cx="30" cy="28" r="6" fill="#FF7A3D" />
+  <circle cx="51" cy="28" r="6" fill="#C7A24C" />
+  <circle cx="72" cy="28" r="6" fill="#63B34F" />
+  <text x="686" y="35" text-anchor="end" class="mono" font-size="16" letter-spacing="1.5" fill="#8F9099">VERIFIED_TOOLBOX</text>
+  <path d="M24 56H696" stroke="#393B45" />
+
+  <g>
+    <text x="40" y="110" class="mono name" fill="#FF7A3D">LANGUAGES</text>
+    <path d="M40 126H680" stroke="#FF7A3D" stroke-width="3" />
+    <text x="40" y="165" class="ui copy" fill="#E8E6E1">Python · TypeScript · JavaScript · SQL</text>
+  </g>
+  <g>
+    <text x="40" y="260" class="mono name" fill="#C7A24C">WEB</text>
+    <path d="M40 276H680" stroke="#C7A24C" stroke-width="3" />
+    <text x="40" y="315" class="ui copy" fill="#E8E6E1">React · Next.js · FastAPI</text>
+    <text x="40" y="348" class="ui copy" fill="#B8B7BC">Fastify · REST APIs</text>
+  </g>
+  <g>
+    <text x="40" y="410" class="mono name" fill="#63B34F">AI</text>
+    <path d="M40 426H680" stroke="#63B34F" stroke-width="3" />
+    <text x="40" y="465" class="ui copy" fill="#E8E6E1">LLM workflows · RAG</text>
+    <text x="40" y="498" class="ui copy" fill="#B8B7BC">AI agents · vector search</text>
+  </g>
+  <g>
+    <text x="40" y="560" class="mono name" fill="#C7A24C">DATA</text>
+    <path d="M40 576H680" stroke="#C7A24C" stroke-width="3" />
+    <text x="40" y="615" class="ui copy" fill="#E8E6E1">PostgreSQL · Supabase · Qdrant · Redis</text>
+  </g>
+  <g>
+    <text x="40" y="710" class="mono name" fill="#63B34F">TOOLS</text>
+    <path d="M40 726H680" stroke="#63B34F" stroke-width="3" />
+    <text x="40" y="765" class="ui copy" fill="#E8E6E1">Git · GitHub Actions · Docker</text>
+    <text x="40" y="798" class="ui copy" fill="#B8B7BC">Pytest · Vitest</text>
+  </g>
+  <g>
+    <text x="40" y="860" class="mono name" fill="#4A90D9">CLOUD</text>
+    <path d="M40 876H680" stroke="#4A90D9" stroke-width="3" />
+    <text x="40" y="915" class="ui copy" fill="#E8E6E1">Vercel · Supabase</text>
+  </g>
+
+  <text x="40" y="990" class="mono" font-size="16" letter-spacing="1" fill="#676974">// PUBLIC PROJECTS · NO PROFICIENCY CLAIMS</text>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">How I build</title>
+  <desc id="desc">An engineering process moving from research to specification, build, test, review, and deploy. AI accelerates the work; engineering defines the direction.</desc>
+  <style>
+    .ui { font-family: Inter, Arial, system-ui, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+    .name { font-size: 17px; font-weight: 750; letter-spacing: .7px; }
+    .copy { font-size: 14px; }
+    .icon { fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+
+  <rect width="1200" height="330" rx="16" fill="#15161D" />
+  <circle cx="30" cy="28" r="6" fill="#FF7A3D" />
+  <circle cx="51" cy="28" r="6" fill="#C7A24C" />
+  <circle cx="72" cy="28" r="6" fill="#63B34F" />
+  <text x="1166" y="34" text-anchor="end" class="mono" font-size="15" letter-spacing="1.5" fill="#8F9099">ENGINEERING_LOOP</text>
+  <path d="M24 54H1176" stroke="#393B45" />
+
+  <g class="icon" stroke="#FF7A3D">
+    <circle cx="88" cy="111" r="18" /><path d="M101 124l14 14" />
+  </g>
+  <text x="88" y="164" text-anchor="middle" class="mono name" fill="#E8E6E1">RESEARCH</text>
+  <text x="88" y="188" text-anchor="middle" class="ui copy" fill="#8F9099">Understand</text>
+  <text x="88" y="208" text-anchor="middle" class="ui copy" fill="#8F9099">the problem</text>
+
+  <path d="M142 113h76m-10-9 10 9-10 9" class="icon" stroke="#545660" />
+
+  <g class="icon" stroke="#C7A24C">
+    <path d="M270 88h31l13 13v39h-44z" /><path d="M301 88v14h13M279 116h25M279 127h19" />
+  </g>
+  <text x="292" y="164" text-anchor="middle" class="mono name" fill="#E8E6E1">SPECIFICATION</text>
+  <text x="292" y="188" text-anchor="middle" class="ui copy" fill="#8F9099">Define the</text>
+  <text x="292" y="208" text-anchor="middle" class="ui copy" fill="#8F9099">system</text>
+
+  <path d="M356 113h66m-10-9 10 9-10 9" class="icon" stroke="#545660" />
+
+  <g class="icon" stroke="#63B34F">
+    <path d="M474 96l-18 17 18 17M508 96l18 17-18 17M500 86l-18 54" />
+  </g>
+  <text x="491" y="164" text-anchor="middle" class="mono name" fill="#E8E6E1">BUILD</text>
+  <text x="491" y="188" text-anchor="middle" class="ui copy" fill="#8F9099">Implement with</text>
+  <text x="491" y="208" text-anchor="middle" class="ui copy" fill="#8F9099">clear intent</text>
+
+  <path d="M550 113h70m-10-9 10 9-10 9" class="icon" stroke="#545660" />
+
+  <g class="icon" stroke="#4A90D9">
+    <path d="M679 84v20l-23 36h58l-23-36V84M673 84h24M669 122h32" />
+  </g>
+  <text x="685" y="164" text-anchor="middle" class="mono name" fill="#E8E6E1">TEST</text>
+  <text x="685" y="188" text-anchor="middle" class="ui copy" fill="#8F9099">Validate behavior</text>
+  <text x="685" y="208" text-anchor="middle" class="ui copy" fill="#8F9099">and quality</text>
+
+  <path d="M748 113h72m-10-9 10 9-10 9" class="icon" stroke="#545660" />
+
+  <g class="icon" stroke="#C7A24C">
+    <circle cx="886" cy="113" r="28" /><path d="M872 113l10 10 19-22" />
+  </g>
+  <text x="886" y="164" text-anchor="middle" class="mono name" fill="#E8E6E1">REVIEW</text>
+  <text x="886" y="188" text-anchor="middle" class="ui copy" fill="#8F9099">Inspect, refine,</text>
+  <text x="886" y="208" text-anchor="middle" class="ui copy" fill="#8F9099">and approve</text>
+
+  <path d="M944 113h70m-10-9 10 9-10 9" class="icon" stroke="#545660" />
+
+  <g class="icon" stroke="#4A90D9">
+    <path d="M1057 129h46a17 17 0 000-34 27 27 0 00-51-4 20 20 0 005 38zM1080 139V103M1068 115l12-12 12 12" />
+  </g>
+  <text x="1080" y="164" text-anchor="middle" class="mono name" fill="#E8E6E1">DEPLOY</text>
+  <text x="1080" y="188" text-anchor="middle" class="ui copy" fill="#8F9099">Deliver and</text>
+  <text x="1080" y="208" text-anchor="middle" class="ui copy" fill="#8F9099">iterate</text>
+
+  <rect x="24" y="244" width="1152" height="62" rx="8" fill="#111218" stroke="#2B2D35" />
+  <rect x="24" y="244" width="6" height="62" rx="3" fill="#FF7A3D" />
+  <text x="56" y="270" class="mono" font-size="17" font-weight="700" fill="#C7A24C">AI accelerates the work.</text>
+  <text x="56" y="294" class="mono" font-size="17" fill="#E8E6E1">Engineering defines the direction.</text>
+</svg>

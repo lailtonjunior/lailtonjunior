@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+  <title id="title">Current focus</title>
+  <desc id="desc">Mobile terminal panel listing AI-assisted development, agentic coding workflows, healthcare technology, workflow automation, and product engineering.</desc>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+  </style>
+
+  <rect width="720" height="720" rx="18" fill="#15161D" />
+  <rect x="1" y="1" width="718" height="718" rx="17" fill="none" stroke="#393B45" stroke-width="2" />
+  <rect x="0" y="0" width="7" height="720" rx="3.5" fill="#FF7A3D" />
+  <circle cx="38" cy="31" r="6" fill="#FF7A3D" />
+  <circle cx="59" cy="31" r="6" fill="#C7A24C" />
+  <circle cx="80" cy="31" r="6" fill="#63B34F" />
+  <text x="680" y="37" text-anchor="end" class="mono" font-size="16" letter-spacing="1" fill="#8F9099">CURRENT_SESSION</text>
+  <path d="M24 58H696" stroke="#393B45" />
+
+  <text x="46" y="111" class="mono" font-size="29" font-weight="700" fill="#63B34F">$ focus --now</text>
+  <text x="60" y="164" class="mono" font-size="27" fill="#E8E6E1"><tspan fill="#63B34F">✓</tspan> ai-assisted development</text>
+  <text x="60" y="211" class="mono" font-size="27" fill="#E8E6E1"><tspan fill="#63B34F">✓</tspan> agentic coding workflows</text>
+  <text x="60" y="258" class="mono" font-size="27" fill="#E8E6E1"><tspan fill="#63B34F">✓</tspan> healthcare technology</text>
+  <text x="60" y="305" class="mono" font-size="27" fill="#E8E6E1"><tspan fill="#63B34F">✓</tspan> workflow automation</text>
+  <text x="60" y="352" class="mono" font-size="27" fill="#E8E6E1"><tspan fill="#63B34F">✓</tspan> product engineering</text>
+
+  <path d="M46 402H674" stroke="#393B45" />
+  <text x="46" y="460" class="mono" font-size="29" font-weight="700" fill="#63B34F">$ status</text>
+  <text x="60" y="512" class="mono" font-size="27" fill="#E8E6E1">shipping</text>
+  <text x="60" y="557" class="mono" font-size="30" font-weight="700" fill="#FF7A3D">useful software<tspan fill="#C7A24C">_</tspan></text>
+
+  <rect x="46" y="612" width="628" height="68" rx="8" fill="#111218" stroke="#2B2D35" />
+  <text x="68" y="654" class="mono" font-size="20" fill="#8F9099">engineering first · AI accelerated</text>
+</svg>
